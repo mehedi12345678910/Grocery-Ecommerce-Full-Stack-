@@ -39,9 +39,9 @@ const Banner = () => {
 
           {/* Buttons - Interaction chharao premium design */}
           <div className="flex flex-wrap gap-5 justify-center">
-            <button className="px-10 py-5 bg-orange-600 text-white font-bold rounded-2xl shadow-lg hover:bg-orange-700 transition-colors duration-300">
+            <Link href={'/products'} className="px-10 py-5 bg-orange-600 text-white font-bold rounded-2xl shadow-lg hover:bg-orange-700 transition-colors duration-300">
               🛒 এখনই কিনুন
-            </button>
+            </Link>
 
             <Link href={'contact'} className="px-10 py-5 bg-white text-gray-800 font-bold rounded-2xl border-2 border-gray-100 shadow-sm hover:border-orange-200 hover:bg-gray-50 transition-all">
               আমাদের গল্প
