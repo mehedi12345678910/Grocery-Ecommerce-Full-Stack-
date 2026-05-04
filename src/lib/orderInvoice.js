@@ -8,7 +8,7 @@ export const orderInvoiceTemplate = ({ orderId, items, totalPrice }) => {
           <!-- Header -->
           <tr>
             <td align="center" style="padding-bottom:20px;">
-              <img src="https://i.ibb.co.com/ynq5sbpL/image.png" width="120" />
+              <img src="https://i.ibb.co.com/ymVCsjkN/Gemini-Generated-Image-3tfyid3tfyid3tfy.png" width="120" />
               <h2 style="margin:10px 0;">🧾 Order Invoice</h2>
               <p style="color:#555;">Order ID: <strong>${orderId}</strong></p>
             </td>
@@ -52,7 +52,7 @@ export const orderInvoiceTemplate = ({ orderId, items, totalPrice }) => {
           <!-- Footer -->
           <tr>
             <td align="center" style="padding-top:20px; color:#777;">
-              <p>Thank you for shopping with <strong>Hero Kidz</strong> ❤️</p>
+              <p>Thank you for shopping with <strong>GhorerBazar</strong> ❤️</p>
               <p style="font-size:12px;">This is an automated email. Please do not reply.</p>
             </td>
           </tr>
