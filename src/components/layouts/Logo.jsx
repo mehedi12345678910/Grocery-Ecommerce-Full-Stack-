@@ -11,7 +11,7 @@ const Logo = () => {
         width={50}
         height={40}
       />
-      <h2 className="text-xl font-bold">
+      <h2 className="text-xl font-bold text-[12px] md:text-[20px]">
         Ghorer<span className="text-primary">Bazar</span>{" "}
       </h2>
     </Link>
