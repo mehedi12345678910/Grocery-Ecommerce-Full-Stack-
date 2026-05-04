@@ -1,16 +1,12 @@
-# Hero Kidzz - Project Assets
+# Ghorerbazar - Project Assets
 <img src="public/assets/hero.png">
 
 ## Overview
 
-Hero Kidzz is a small, single-vendor e-commerce web application designed for selling children's products. This repository contains all project assets including images, icons, and media files.
+
 
 ## Run the Code 
-### CLONE
-```bash
- git clone https://github.com/ferdouszihad/Hero-Kidzz-part-1.git
 
-```
 ### ENV
 set .env in root folder with following credentials
 ```bash
@@ -58,17 +54,4 @@ npm run dev
   --color-error: oklch(62% 0.24 28);
 ```
 
-## Getting Started
 
-1. Clone the repository
-2. Extract assets to your project directory
-3. Reference images in your application
-
-## Contributing
-
-Follow project guidelines when adding new assets.
-
-## License
-
-All assets are proprietary to Hero Kidzz.
-# Hero-Kidz-assets
