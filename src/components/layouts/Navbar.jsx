@@ -98,7 +98,7 @@ const Navbar = () => {
   );
 
   return (
-    <div className="sticky top-0 z-[100] w-full border-b border-base-content/5 bg-base-100/70 backdrop-blur-xl transition-all duration-300">
+    <div className=" sticky top-0 z-[100] w-full border-b border-base-content/5 bg-base-100/70 backdrop-blur-xl transition-all duration-300">
       <div className="container mx-auto max-w-7xl">
         <div className="navbar min-h-[4.5rem] px-4">
           

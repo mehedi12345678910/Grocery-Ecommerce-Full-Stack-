@@ -14,7 +14,7 @@ export const fontBangla = localFont({
 });
 
 export const metadata = {
-  metadataBase: new URL("https://hero-kidz.vercel.app"),
+  metadataBase: new URL("https://grocery-ecommerce-full-stack.vercel.app/"),
 
   title: {
     default: "GorerBazar | Smart Learning Toys for Kids",
@@ -54,21 +54,21 @@ export const metadata = {
   },
 
   icons: {
-    icon: "https://i.ibb.co.com/ynq5sbpL/image.png",
-    apple: "https://i.ibb.co.com/ynq5sbpL/image.png",
+    icon: "https://i.ibb.co.com/W4whY1Z6/turmeri-powder-300x300.jpg",
+    apple: "https://i.ibb.co.com/W4whY1Z6/turmeri-powder-300x300.jpg",
   },
 
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://www.HeroKidz.com",
+    url: "https://grocery-ecommerce-full-stack.vercel.app/",
     siteName: "GorerBazar",
     title: "GorerBazar | Smart GorerBazar",
     description:
       "Discover colorful and safe learning toys designed to develop kids’ math skills, creativity, and confidence.",
     images: [
       {
-        url: "https://i.ibb.co.com/WN7WK6w5/image.png",
+        url: "https://i.ibb.co.com/W4whY1Z6/turmeri-powder-300x300.jpg",
         width: 1200,
         height: 630,
         alt: "GorerBazar Homepage Preview",
@@ -81,7 +81,7 @@ export const metadata = {
     title: "GorerBazar | Smart Learning Toys for Kids",
     description:
       "Safe and educational toys to help children learn through play.",
-    images: ["https://i.ibb.co.com/WN7WK6w5/image.png"],
+    images: ["https://i.ibb.co.com/W4whY1Z6/turmeri-powder-300x300.jpg"],
   },
 
   category: "education",

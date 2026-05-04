@@ -41,7 +41,7 @@ const CheckOut = ({ cartItems = [] }) => {
     if (result.success) {
       Swal.fire(
         "অর্ডার সম্পন্ন হলো",
-        "অর্ডার টি ৭ দিনের ভেতর আপনার কাছে পৌছে যাবে। ইমেইল চেক করুন।",
+        "৭ দিনের অর্ডার টি ভেতর আপনার কাছে পৌছে যাবে। ইমেইল চেক করুন।",
         "success"
       );
 
@@ -109,7 +109,7 @@ const CheckOut = ({ cartItems = [] }) => {
 
           <div>
             <label className="block font-medium mb-1">
-              Delivery Information
+              Delivery Address / ডেলিভারি ঠিকানা
             </label>
             <textarea
               name="deliveryInfo"
@@ -121,7 +121,7 @@ const CheckOut = ({ cartItems = [] }) => {
 
           <div>
             <label className="block font-medium mb-1">
-              Special Instruction
+              Special Instruction / বিশেষ নির্দেশনা
             </label>
             <textarea
               name="specialInstruction"
@@ -131,7 +131,7 @@ const CheckOut = ({ cartItems = [] }) => {
           </div>
 
           <div>
-            <label className="block font-medium mb-1">Contact No</label>
+            <label className="block font-medium mb-1">Contact No / মোবাইল নম্বর</label>
             <input
               type="tel"
               name="contactNo"

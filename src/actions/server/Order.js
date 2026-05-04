@@ -45,7 +45,7 @@ export const createOrder = async (payload) => {
 
   await sendEmail({
     to: user.email,
-    subject: "🎉Your Order Invoice - Hero Kidz",
+    subject: "🎉Your Order Invoice - GhorerBazar",
     html: orderInvoiceTemplate({
       orderId: result.insertedId.toString(),
       items: cart,
@@ -55,7 +55,7 @@ export const createOrder = async (payload) => {
 
   await sendEmail({
     to: "mdmehedi01326018868@gmail.com",
-    subject: "Congrates🔥. New Sell  from Hero Kidz",
+    subject: "congratulations🔥. New Sell  from GhorerBazar",
     html: adminOrderNotificationTemplate({
       orderId: result.insertedId.toString(),
       items: cart,

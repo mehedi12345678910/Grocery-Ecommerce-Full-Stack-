@@ -61,6 +61,7 @@ const LoginForm = () => {
       </div>
       <div className="card w-full max-w-sm shadow-xl bg-base-100">
         <div className="card-body">
+            <h1 className="text-2xl font-bold text-red-500 text-center border-2">google diye login korun</h1>
           <h2 className="text-2xl font-bold text-center">Login</h2>
 
           <form onSubmit={handleSubmit} className="space-y-3">

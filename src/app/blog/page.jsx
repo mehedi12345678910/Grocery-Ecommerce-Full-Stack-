@@ -31,7 +31,7 @@ export default function BlogPage() {
   return (
     <main className="min-h-screen bg-[#faf9f6] text-[#2d2d2d] selection:bg-orange-200">
       
-      {/* Hero Section */}
+      {/* GhorerBazar Section */}
       <section className="relative h-[60vh] flex items-center justify-center overflow-hidden bg-[#1a1a1a]">
         <div className="absolute inset-0 opacity-40">
           <Image 
